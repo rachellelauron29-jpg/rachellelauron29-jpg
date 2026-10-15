@@ -1,0 +1,145 @@
+
+{
+  "portfolio": {
+    "title": "My Student Portfolio",
+    "year": 2026,
+    "theme": {
+      "primary": "#7c3aed",
+      "secondary": "#6d28d9",
+      "light": "#f5f3ff",
+      "dark": "#1f2937",
+      "accent": "#c4b5fd",
+      "font": "Trebuchet MS",
+      "style": "Purple gradient with a clean, responsive layout"
+    },
+    "sidebar": {
+      "title": "My Portfolio",
+      "subtitle": "Student • Creator • Dreamer",
+      "navigation": [
+        {
+          "label": "🏠 Home",
+          "link": "#home"
+        },
+        {
+          "label": "👤 About",
+          "link": "#about"
+        },
+        {
+          "label": "🛠️ Skills",
+          "link": "#skills"
+        },
+        {
+          "label": "📁 Projects",
+          "link": "#projects"
+        },
+        {
+          "label": "✉️ Contact",
+          "link": "#contact"
+        }
+      ]
+    },
+    "home": {
+      "id": "home",
+      "profileImage": "rachelle.png",
+      "profileImageShape": "circle",
+      "name": "Rachelle Jayne Princess B. Lauron",
+      "course": "BSINTE Student - Major in Networking",
+      "button": {
+        "text": "View My Projects 🚀",
+        "link": "#projects"
+      }
+    },
+    "about": {
+      "id": "about",
+      "heading": "About Me",
+      "description": "Hello! I am Rachelle Jayne Princess B. Lauron, a second-year Bachelor of Science in Information Technology student at Nueva Vizcaya State University. I am a dedicated student who is willing to learn new things, develop my skills, and improve myself both academically and personally. I believe that every experience is an opportunity to grow and become a better version of myself. Through my journey as a student, I hope to gain knowledge and skills that will help me achieve my goals and prepare for my future career.",
+      "school": "Nueva Vizcaya State University - Bambang Campus",
+      "course": "Bachelor of Science in Information Technology",
+      "goals": "To grow, learn, and make a difference in the world of technology."
+    },
+    "skills": {
+      "id": "skills",
+      "heading": "🛠️ My Skills and Achievements",
+      "items": [
+        {
+          "name": "Computer System Servicing NCII Passer",
+          "icon": "🌐"
+        },
+        {
+          "name": "Troubleshooting",
+          "icon": "🔧"
+        }
+      ]
+    },
+    "projects": {
+      "id": "projects",
+      "heading": "📁 My Projects",
+      "items": [
+        {
+          "title": "📄 Personal Portfolio",
+          "description": "A responsive website I built to showcase my skills and introduce myself to the world."
+        }
+      ]
+    },
+    "contact": {
+      "id": "contact",
+      "heading": "✉️ Get In Touch",
+      "form": {
+        "fields": [
+          {
+            "label": "Your Full Name",
+            "name": "name",
+            "type": "text",
+            "required": true,
+            "placeholder": "Enter your name"
+          },
+          {
+            "label": "Email Address",
+            "name": "email",
+            "type": "email",
+            "required": true,
+            "placeholder": "your.email@example.com"
+          },
+          {
+            "label": "Your Message",
+            "name": "message",
+            "type": "textarea",
+            "required": true,
+            "placeholder": "Write your message here..."
+          }
+        ],
+        "button": "Send Message ✉️"
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Rachelle Jayne Princess B. Lauron. All rights reserved. 🌌💜✨"
+    },
+    "responsiveDesign": {
+      "desktop": {
+        "sidebarWidth": "240px",
+        "profileImageSize": "220px",
+        "layout": "Sidebar navigation with main content"
+      },
+      "tablet": {
+        "breakpoint": "900px",
+        "heroLayout": "Vertical",
+        "textAlignment": "Center"
+      },
+      "mobile": {
+        "breakpoint": "768px",
+        "sidebarPosition": "Top",
+        "sidebarLayout": "Horizontal",
+        "profileImageSize": "160px",
+        "mainContentMargin": "0"
+      }
+    },
+    "effects": [
+      "Smooth scrolling",
+      "Gradient backgrounds",
+      "Hover animations",
+      "Card shadows",
+      "Circular profile image",
+      "Responsive navigation"
+    ]
+  }
+}
